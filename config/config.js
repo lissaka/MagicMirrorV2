@@ -81,32 +81,32 @@ var config = {
 		},	
  		{ 
     			module : "MMM-horoscope" , 
-    			position : 'bottom_left' ,   // Cela peut être l'une des régions. 
-    			config : { 
-     			 // Voir 'Options de configuration' pour des options supplémentaires et plus d'informations. 
-      			signe : 'balance' ,  // signe du zodiaque 
+    			position : "bottom_left" ,   // Cela peut être l'une des régions. 
+    			config : {
+      			sign : "libra" ,  // signe du zodiaque 
+			maxWidth : "400px",
     			} 
   		},
 		{
   			module: "MMM-CyberSecurityNews",
   			position: "top_right",
   			config: {
-    				numberOfArticles: 2,
+    				numberOfArticles: "2",
   			}
 		},
 		{
     			module: "MMM-RATP",
-    			position: 'bottom_right',
+    			position: "bottom_right",
     			config: {
-        			theme: 'dashboard',
+        			theme: "dashboard",
         		timetables: {
             			config: [
-               			 { type: 'metro', line: '5', station: 'Bobigny+Pablo+Picasso', direction: 'A' },
+               			 { type: "metro", line: "5", station: "Bobigny+Pablo+Picasso", direction: "A" },
             			]
         		},
         		traffic: {
            		 	config: [
-                		{ type: 'metro', line: '5' }
+                		{ type: "metro", line: "5" }
             		]
         		}
    		 }
