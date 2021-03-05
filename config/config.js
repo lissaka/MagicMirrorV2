@@ -63,21 +63,10 @@ var config = {
 				appid: "3f1badfaecbf2a3be703d38e5bf4e0ae"
 			}
 		},
-		{
-		    module: "MMM-PoemOfTheDay",
-		   // position: "lower_third",
-		    position: "top_left",
-		    config: {
-		      textLimit: 1000,
-		      lineLimit: 10,
-		      detectLanguageApiKey: "f20e1f5958203dfdf46aab11eeb6e9ea",
-		      languageSet: ["fr", "es"],
-		      updateInterval: 120000
-   		 }
-  		},
+		
 		{
 			module: "newsfeed",
-			position: "bottom_center",
+			position: "top_center",
 			config: {
 				feeds: [
 					{
@@ -102,7 +91,7 @@ var config = {
 		},
 		{
    		 module: 'MMM-RATP',
-    		 position: 'top_center',
+    		 position: 'top_right',
     		 config: {
         		theme: 'dashboard',
         		timetables: {
