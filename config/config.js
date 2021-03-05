@@ -102,7 +102,7 @@ var config = {
 			}
 		},	
  		{ 
-    			module : 'MMM-horoscope' , 
+    			module : "MMM-horoscope" , 
     			position : 'top_left' ,   // Cela peut être l'une des régions. 
     			config : { 
      			 // Voir 'Options de configuration' pour des options supplémentaires et plus d'informations. 
@@ -117,7 +117,7 @@ var config = {
   			}
 		},
 		{
-    			module: 'MMM-RATP',
+    			module: "MMM-RATP",
     			position: 'bottom_right',
     			config: {
         			theme: 'dashboard',
