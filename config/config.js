@@ -86,6 +86,27 @@ var config = {
     				numberOfArticles: 2,
   			}
 		},
+		//{
+   		// module: 'MMM-RATP',
+    		//position: 'bottom_right',
+    		//config: {
+        	//	theme: 'dashboard',
+        	//	timetables: {
+            	//	config: [
+                //		{ type: 'metro', line: '14', station: 'pyramides', direction: 'A' 
+		//		},
+            	//	]
+       		 //},
+        	//	traffic: {
+            	//	config: [
+                //		{ type: 'metro', 
+		//		 line: '14', 
+		//		}
+            	//	]
+        	//	}
+    		//}
+		//},
+
 		{
     			module: "MMM-RATP",
     			position: "top_left",
@@ -93,12 +114,19 @@ var config = {
         			theme: "dashboard",
         		timetables: {
             			config: [
-               			 { type: "metro", line: "5", station: "bobigny+pablo+picasso", direction: "A" },
+               			 { 
+					 type: "metro", 
+					 line: "5", 
+					 station: "bobigny+pablo+picasso", 
+					 direction: "A", 
+				 },
             			]
         		},
         		traffic: {
            		 	config: [
-                		{ type: "metro", line: "5" }
+                		{ type: "metro", 
+				 line: "5", 
+				}
             		]
         		}
    		 }
