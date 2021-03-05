@@ -86,7 +86,7 @@ var config = {
 			config: {
 				api_key: "228eec1016b3b42e320416de04fe7423",
 				token: "dcec98cca570849e65b1bdfe565d2c304431d6bca21096f1c26c0aed93650f31",
-				list: "604268437c125c8d618cd857"
+				list: "604268437c125c8d618cd858"
 			}
 		},
 		{
@@ -94,7 +94,8 @@ var config = {
 		     position: "top_right",
 		     header: "Bus 148 (vers Bobigny)", // the title that will be displayed on top on the widget
 		     config:{
-			 apiURL:"https://api-ratp.pierre-grimaud.fr/v3/schedules/bus/148/lieutenant+lebrun\"urville+++paris/A", // more info about API documentation : https://github.com/pgrimaud/horaires-ratp-api
+			 debugging : true,
+			 apiURL:"https://api-ratp.pierre-grimaud.fr/v3/bus/148/lieutenant+lebrun/A+R", // more info about API documentation : https://github.com/pgrimaud/horaires-ratp-api
 			}
 		},
 
