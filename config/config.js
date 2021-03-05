@@ -92,29 +92,25 @@ var config = {
 			}
 		},	
 		{
-  			module: "MMM-CyberSecurityNews",
-  			position: "top_right",
-  			config: {
-    				numberOfArticles: "2",
-  			}
-		},
-		{ 
-		    module : "MMM-GoogleTasks",
-		    tête : "Google Tasks" , 
-		    position : "top_center" , 
-		    config : { 
-			listID : "MTcyODM2NjgxMzA5NDMyMzc4MjU6MDow",
-			
-		    } 
+			module: 'MMM-Trello',
+			position: 'top_right',
+			config: {
+				api_key: "228eec1016b3b42e320416de04fe7423",
+				token: "dcec98cca570849e65b1bdfe565d2c304431d6bca21096f1c26c0aed93650f31",
+				list: "604268437c125c8d618cd857"
+			}
 		},
 		{
    		 module: 'MMM-RATP',
-    		 position: 'top_right',
+    		 position: 'top_center',
     		 config: {
         		theme: 'dashboard',
         		timetables: {
             		config: [
-                		{ type: 'metro', line: '14', station: 'pyramides', direction: 'A' 
+                		{ type: 'metro', 
+				 line: '14', 
+				 station: 'pyramides', 
+				 direction: 'A',
 				},
             		]
        		 },
