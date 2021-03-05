@@ -95,7 +95,7 @@ var config = {
 		     header: "Bus 148 (vers Bobigny)", // the title that will be displayed on top on the widget
 		     config:{
 			 debugging : true,
-			 apiURL:"https://api-ratp.pierre-grimaud.fr/v3/bus/148/lieutenant+lebrun/A+R", // more info about API documentation : https://github.com/pgrimaud/horaires-ratp-api
+			 apiURL:"https://api-ratp.pierre-grimaud.fr/v4/schedules/buses/148/lieutenant%2Blebrun/A%2BR", // more info about API documentation : https://github.com/pgrimaud/horaires-ratp-api
 			}
 		},
 
