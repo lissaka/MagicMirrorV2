@@ -7,7 +7,7 @@
 
 // Modules listed below can be loaded without the 'default/' prefix. Omitting the default folder name.
 
-var defaultModules = ["MMM-Ratp","compliments","MMM-CoinMarketCap", "clock", "currentweather", "newsfeed", "MMM-RATP", "MMM-Trello"];
+var defaultModules = ["MMM-Trello", "MMM-Ratp","compliments","MMM-CoinMarketCap", "clock", "currentweather", "newsfeed"];
 //var defaultModules = ["MMM-horoscope","MMM-CyberSecurityNews","MMM-RATP"];
 
 /*************** DO NOT EDIT THE LINE BELOW ***************/
