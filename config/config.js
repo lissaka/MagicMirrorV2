@@ -81,7 +81,7 @@ var config = {
 		},	
  		{ 
     			module : "MMM-horoscope" , 
-    			position : "bottom_left" ,   // Cela peut être l'une des régions. 
+    			position : "center_left" ,   // Cela peut être l'une des régions. 
     			config : {
       			sign : "libra" ,  // signe du zodiaque 
 			maxWidth : "400px",
@@ -89,14 +89,14 @@ var config = {
   		},
 		{
   			module: "MMM-CyberSecurityNews",
-  			position: "bottom_left",
+  			position: "top_right",
   			config: {
     				numberOfArticles: 2,
   			}
 		},
 		{
     			module: "MMM-RATP",
-    			position: "bottom_right",
+    			position: "middle_right",
     			config: {
         			theme: "dashboard",
         		timetables: {
