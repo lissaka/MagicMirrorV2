@@ -66,7 +66,7 @@ var config = {
 		{
 		    module: "MMM-PoemOfTheDay",
 		   // position: "lower_third",
-		    position: "top_center",
+		    position: "top_left",
 		    config: {
 		      textLimit: 1000,
 		      lineLimit: 10,
@@ -101,7 +101,7 @@ var config = {
 		{ 
 		    module : "MMM-GoogleTasks",
 		    tête : "Google Tasks" , 
-		    position : "top_right" , 
+		    position : "top_center" , 
 		    config : { 
 			listID : "MTcyODM2NjgxMzA5NDMyMzc4MjU6MDow",
 			
