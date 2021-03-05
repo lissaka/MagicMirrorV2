@@ -69,7 +69,7 @@ var config = {
 			module: "currentweather",
 			position: "top_right",
 			config: {
-				location: "New York",
+				location: "Paris",
 				locationID: "5128581", //ID from http://bulk.openweathermap.org/sample/city.list.json.gz; unzip the gz file and find your city
 				appid: "YOUR_OPENWEATHER_API_KEY"
 			}
@@ -79,11 +79,29 @@ var config = {
 			position: "top_right",
 			header: "Weather Forecast",
 			config: {
-				location: "New York",
+				location: "Paris,
 				locationID: "5128581", //ID from http://bulk.openweathermap.org/sample/city.list.json.gz; unzip the gz file and find your city
 				appid: "YOUR_OPENWEATHER_API_KEY"
 			}
 		},
+		{
+    			module: 'MMM-RATP',
+    			position: 'bottom_right',
+    			config: {
+        			theme: 'dashboard',
+        		timetables: {
+            			config: [
+               			 { type: 'metro', line: '5', station: 'Bobigny Pablo-Picasso', direction: 'A' },
+            			]
+        		},
+        		traffic: {
+           		 	config: [
+                		{ type: 'metro', line: '5' }
+            		]
+        		}
+   		 }
+		},
+
 		{
 			module: "MMM-cryptocurrency",
 			position: "top_left",
