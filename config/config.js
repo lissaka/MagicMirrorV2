@@ -85,6 +85,38 @@ var config = {
 			}
 		},
 		{
+			module: "newsfeed",
+			//position: "bottom_bar",
+			position: "lower_third",
+			config: {
+				feeds: [
+					{
+						title: "Le Parisien",
+						url: "https://www.leparisien.fr/"
+					}
+				],
+				showSourceTitle: true,
+				showPublishDate: true,
+				broadcastNewsFeeds: true,
+				broadcastNewsUpdates: true
+			}
+		},	
+ 		{ 
+    			module : 'MMM-horoscope' , 
+    			position : 'top_left' ,   // Cela peut être l'une des régions. 
+    			config : { 
+     			 // Voir 'Options de configuration' pour des options supplémentaires et plus d'informations. 
+      			signe : 'balance' ,  // signe du zodiaque 
+    		} 
+  		},
+		{
+  			module: "MMM-CyberSecurityNews",
+  			position: "top_right",
+  			config: {
+    				numberOfArticles: <2>,
+  			}
+		},
+		{
     			module: 'MMM-RATP',
     			position: 'bottom_right',
     			config: {
