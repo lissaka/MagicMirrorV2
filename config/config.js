@@ -49,18 +49,7 @@ var config = {
 			module: "clock",
 			position: "top_left"
 		},
-		{
-			module: "calendar",
-			header: "US Holidays",
-			position: "top_left",
-			config: {
-				calendars: [
-					{
-						symbol: "calendar-check",
-						url: "webcal://www.calendarlabs.com/ical-calendar/ics/76/US_Holidays.ics"					}
-				]
-			}
-		},
+		
 		{
 			module: "compliments",
 			position: "lower_third"
@@ -70,29 +59,18 @@ var config = {
 			position: "top_right",
 			config: {
 				location: "Paris",
-				locationID: "5128581", //ID from http://bulk.openweathermap.org/sample/city.list.json.gz; unzip the gz file and find your city
-				appid: "YOUR_OPENWEATHER_API_KEY"
-			}
-		},
-		{
-			module: "weatherforecast",
-			position: "top_right",
-			header: "Weather Forecast",
-			config: {
-				location: "Paris,
-				locationID: "5128581", //ID from http://bulk.openweathermap.org/sample/city.list.json.gz; unzip the gz file and find your city
-				appid: "YOUR_OPENWEATHER_API_KEY"
+				locationID: "2988507", //ID from http://bulk.openweathermap.org
+				appid: "3f1badfaecbf2a3be703d38e5bf4e0ae"
 			}
 		},
 		{
 			module: "newsfeed",
-			//position: "bottom_bar",
-			position: "lower_third",
+			position: "top_center",
 			config: {
 				feeds: [
 					{
-						title: "Le Parisien",
-						url: "https://www.leparisien.fr/"
+						title: "Le Monde",
+						url: "https://www.lemonde.fr/rss/une.xml"
 					}
 				],
 				showSourceTitle: true,
@@ -103,17 +81,17 @@ var config = {
 		},	
  		{ 
     			module : "MMM-horoscope" , 
-    			position : 'top_left' ,   // Cela peut être l'une des régions. 
+    			position : 'bottom_left' ,   // Cela peut être l'une des régions. 
     			config : { 
      			 // Voir 'Options de configuration' pour des options supplémentaires et plus d'informations. 
       			signe : 'balance' ,  // signe du zodiaque 
-    		} 
+    			} 
   		},
 		{
   			module: "MMM-CyberSecurityNews",
   			position: "top_right",
   			config: {
-    				numberOfArticles: <2>,
+    				numberOfArticles: 2,
   			}
 		},
 		{
@@ -123,7 +101,7 @@ var config = {
         			theme: 'dashboard',
         		timetables: {
             			config: [
-               			 { type: 'metro', line: '5', station: 'Bobigny Pablo-Picasso', direction: 'A' },
+               			 { type: 'metro', line: '5', station: 'Bobigny+Pablo+Picasso', direction: 'A' },
             			]
         		},
         		traffic: {
@@ -133,23 +111,10 @@ var config = {
         		}
    		 }
 		},
-
-		{
-			module: "MMM-cryptocurrency",
-			position: "top_left",
-			config: {
-				apikey: 'c80092e3-52a4-4302-969d-a421b38cd872',
-				currency: ['ethereum', 'bitcoin'],
-				conversion: 'EUR',
-				headers: ['change24h', 'change1h', 'change7d'],
-				displayType: 'logoWithChanges',
-				showGraphs: true
-			}
-		},
 		{
          		module: "MMM-CoinMarketCap",
          		position: "top_left",
-   			header: "Léo Hacking",
+   			header: "Crypto",
         		config: {
               			apiKey: 'c80092e3-52a4-4302-969d-a421b38cd872',
                			currencies: ['bitcoin', 'ethereum', 'litecoin', 'ripple'],
