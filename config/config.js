@@ -90,27 +90,12 @@ var config = {
 			}
 		},
 		{
-   		 module: 'MMM-RATP',
-    		 position: 'top_right',
-    		 config: {
-        		theme: 'dashboard',
-        		timetables: {
-            		config: [
-                		{ type: 'metro', 
-				 line: '14', 
-				 station: 'pyramides', 
-				 direction: 'A',
-				},
-            		]
-       		 },
-        		traffic: {
-            		config: [
-                		{ type: 'metro', 
-				 line: '14', 
-				}
-            		]
-        		}
-    		}
+		     module: "MMM-Ratp",
+		     position: "top_right",
+		     header: "Bus 148 (vers Bobigny)", // the title that will be displayed on top on the widget
+		     config:{
+			 apiURL:"https://api-ratp.pierre-grimaud.fr/v3/schedules/bus/148/lieutenant+lebrun\"urville+++paris/A", // more info about API documentation : https://github.com/pgrimaud/horaires-ratp-api
+			}
 		},
 
 		{
