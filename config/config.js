@@ -66,7 +66,7 @@ var config = {
 		{
 		    module: "MMM-PoemOfTheDay",
 		   // position: "lower_third",
-		    position: "bottom_right",
+		    position: "top_center",
 		    config: {
 		      textLimit: 1000,
 		      lineLimit: 10,
@@ -95,54 +95,39 @@ var config = {
   			module: "MMM-CyberSecurityNews",
   			position: "top_right",
   			config: {
-    				numberOfArticles: < 2 >,
+    				numberOfArticles: "2",
   			}
 		},
-		//{
-   		// module: 'MMM-RATP',
-    		//position: 'bottom_right',
-    		//config: {
-        	//	theme: 'dashboard',
-        	//	timetables: {
-            	//	config: [
-                //		{ type: 'metro', line: '14', station: 'pyramides', direction: 'A' 
-		//		},
-            	//	]
-       		 //},
-        	//	traffic: {
-            	//	config: [
-                //		{ type: 'metro', 
-		//		 line: '14', 
-		//		}
-            	//	]
-        	//	}
-    		//}
-		//},
-
+		{ 
+		    module : "MMM-GoogleTasks",
+		    tête : "Google Tasks" , 
+		    position : "top_right" , 
+		    config : { 
+			listID : "" ,
+			
+		    } 
+		},
 		{
-    			module: "MMM-RATP",
-    			position: "lower_third",
-    			config: {
-        			theme: "dashboard",
+   		 module: 'MMM-RATP',
+    		 position: 'top_right',
+    		 config: {
+        		theme: 'dashboard',
         		timetables: {
-            			config: [
-               			 { 
-					 type: "metro", 
-					 line: "5", 
-					 station: "bobigny+pablo+picasso", 
-					 direction: "A", 
-				 },
-            			]
-        		},
+            		config: [
+                		{ type: 'metro', line: '14', station: 'pyramides', direction: 'A' 
+				},
+            		]
+       		 },
         		traffic: {
-           		 	config: [
-                		{ type: "metro", 
-				 line: "5", 
+            		config: [
+                		{ type: 'metro', 
+				 line: '14', 
 				}
             		]
         		}
-   		 }
+    		}
 		},
+
 		{
          		module: "MMM-CoinMarketCap",
          		position: "top_left",
