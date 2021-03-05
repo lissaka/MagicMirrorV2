@@ -65,7 +65,7 @@ var config = {
 		},
 		{
 			module: "newsfeed",
-			position: "top_center",
+			position: "bottom_center",
 			config: {
 				feeds: [
 					{
@@ -79,14 +79,6 @@ var config = {
 				broadcastNewsUpdates: true
 			}
 		},	
- 		{ 
-    			module : "MMM-horoscope" , 
-    			position : "center_left" ,   // Cela peut être l'une des régions. 
-    			config : {
-      			sign : "libra" ,  // signe du zodiaque 
-			maxWidth : "400px",
-    			} 
-  		},
 		{
   			module: "MMM-CyberSecurityNews",
   			position: "top_right",
@@ -96,7 +88,7 @@ var config = {
 		},
 		{
     			module: "MMM-RATP",
-    			position: "middle_right",
+    			position: "top_left",
     			config: {
         			theme: "dashboard",
         		timetables: {
