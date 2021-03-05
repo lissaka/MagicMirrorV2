@@ -64,6 +64,18 @@ var config = {
 			}
 		},
 		{
+		    module: "MMM-PoemOfTheDay",
+		   // position: "lower_third",
+		    position: "bottom_right",
+		    config: {
+		      textLimit: 1000,
+		      lineLimit: 10,
+		      detectLanguageApiKey: "f20e1f5958203dfdf46aab11eeb6e9ea",
+		      languageSet: ["fr", "es"],
+		      updateInterval: 120000
+   		 }
+  		},
+		{
 			module: "newsfeed",
 			position: "bottom_center",
 			config: {
@@ -83,7 +95,7 @@ var config = {
   			module: "MMM-CyberSecurityNews",
   			position: "top_right",
   			config: {
-    				numberOfArticles: 2,
+    				numberOfArticles: < 2 >,
   			}
 		},
 		//{
@@ -109,7 +121,7 @@ var config = {
 
 		{
     			module: "MMM-RATP",
-    			position: "top_left",
+    			position: "lower_third",
     			config: {
         			theme: "dashboard",
         		timetables: {
