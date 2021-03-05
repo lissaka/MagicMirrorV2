@@ -89,9 +89,9 @@ var config = {
   		},
 		{
   			module: "MMM-CyberSecurityNews",
-  			position: "top_right",
+  			position: "bottom_left",
   			config: {
-    				numberOfArticles: "2",
+    				numberOfArticles: 2,
   			}
 		},
 		{
@@ -101,7 +101,7 @@ var config = {
         			theme: "dashboard",
         		timetables: {
             			config: [
-               			 { type: "metro", line: "5", station: "Bobigny+Pablo+Picasso", direction: "A" },
+               			 { type: "metro", line: "5", station: "bobigny+pablo+picasso", direction: "A" },
             			]
         		},
         		traffic: {
