@@ -7,7 +7,8 @@
 
 // Modules listed below can be loaded without the 'default/' prefix. Omitting the default folder name.
 
-var defaultModules = ["MMM-CoinMarketCap", "clock", "currentweather", "newsfeed","MMM-horoscope","MMM-CyberSecurityNews","MMM-RATP"];
+//var defaultModules = ["MMM-CoinMarketCap", "clock", "currentweather", "newsfeed","MMM-horoscope","MMM-CyberSecurityNews","MMM-RATP"];
+var defaultModules = ["MMM-horoscope","MMM-CyberSecurityNews","MMM-RATP"];
 
 /*************** DO NOT EDIT THE LINE BELOW ***************/
 if (typeof module !== "undefined") {
