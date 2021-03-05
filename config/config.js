@@ -86,7 +86,7 @@ var config = {
 			config: {
 				api_key: "228eec1016b3b42e320416de04fe7423",
 				token: "dcec98cca570849e65b1bdfe565d2c304431d6bca21096f1c26c0aed93650f31",
-				list: "604268437c125c8d618cd858",
+				list: "604268437c125c8d618cd85a",
 			}
 		},
 		{
