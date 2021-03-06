@@ -98,6 +98,18 @@ var config = {
 			}
 		},
 		{
+			module: 'MMM-Paris-RATP-PG',
+			position: 'bottom_right',
+			header: 'Connections',
+			config: {
+				lines: [
+					  {type: 'buses', line: 148, stations: 'lieutenant+lebrun', destination: 'A+R', firstCellColor: '#0055c8'},
+					  {type: 'buses', line: 146, stations: 'lieutenant+lebrun', destination: 'A+R', firstCellColor: '#dc9600'},
+					  {type: 'metros', line: '5', stations: 'bobigny+pablo+picasso', destination: 'A+R', label: '5', firstCellColor: '#6ECA97'},
+				]
+			}
+    		},
+		{
 		     module: 'MMM-Ratp',
 		     position: 'bottom_center',
 		     header: 'Bus 148', // the title that will be displayed on top on the widget
