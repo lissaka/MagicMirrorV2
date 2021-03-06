@@ -65,7 +65,7 @@ var config = {
 		},
 		{
 			module: "helloworld",
-			position: "middle_center",
+			position: "lower_third",
 			header: "Weather Forecast",
 			config: {
 				text: "Je suis le maître de mon destin, Je suis le capitaine de mon âme. - Invictus"
@@ -99,7 +99,7 @@ var config = {
 		},
 		{
 		     module: 'MMM-Ratp',
-		     position: 'bottom_right',
+		     position: 'bottom_center',
 		     header: 'Bus 148', // the title that will be displayed on top on the widget
 		     config:{
 			 apiURL:'https://api-ratp.pierre-grimaud.fr/v3/schedules/bus/148/lieutenant+lebrun/A+R', // more info about API documentation : https://github.com/pgrimaud/horaires-ratp-api
