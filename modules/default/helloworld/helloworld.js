@@ -7,7 +7,7 @@
 Module.register("helloworld", {
 	// Default module config.
 	defaults: {
-		text: "Hello World!"
+		text: "Je suis le maître de mon destin, Je suis le capitaine de mon âme. - Invictus"
 	},
 
 	getTemplate: function () {
