@@ -70,7 +70,13 @@ var config = {
 				text: "Je suis le maître de mon destin, Je suis le capitaine de mon âme. - Invictus"
 			}
 		},
-		
+		{
+		  module: "MMM-CyberSecurityNews",
+		  position: "bottom_right",
+		  config: {
+		    numberOfArticles: 2
+		  }
+		},
 		{
 			module: "newsfeed",
 			position: "top_center",
