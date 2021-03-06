@@ -73,6 +73,7 @@ var config = {
 		{
 		  module: "MMM-CyberSecurityNews",
 		  position: "bottom_center",
+		  header: "Cybersecurity",
 		  config: {
 		    numberOfArticles: 2
 		  }
