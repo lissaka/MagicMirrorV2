@@ -63,6 +63,14 @@ var config = {
 				appid: "3f1badfaecbf2a3be703d38e5bf4e0ae"
 			}
 		},
+		{
+			module: "Helloworld",
+			position: "middle_center",
+			header: "Weather Forecast",
+			config: {
+				text: "Je suis le maître de mon destin, Je suis le capitaine de mon âme. - Invictus"
+			}
+		},
 		
 		{
 			module: "newsfeed",
@@ -81,8 +89,8 @@ var config = {
 			}
 		},	
 		{
-			module: "MMM-Trello",
-			position: "top_right",
+			module: 'MMM-Trello',
+			position: 'top_right',
 			config: {
 				api_key: "228eec1016b3b42e320416de04fe7423",
 				token: "dcec98cca570849e65b1bdfe565d2c304431d6bca21096f1c26c0aed93650f31",
@@ -90,11 +98,10 @@ var config = {
 			}
 		},
 		{
-		     module: "MMM-Ratp",
-		     position: "bottom_right",
+		     module: 'MMM-Ratp',
+		     position: 'bottom_right',
 		     header: "Bus 148", // the title that will be displayed on top on the widget
 		     config:{
-			 debugging : true,
 			 apiURL:"https://api-ratp.pierre-grimaud.fr/v4/schedules/buses/148/lieutenant+lebrun/A+R", // more info about API documentation : https://github.com/pgrimaud/horaires-ratp-api
 			}
 		},
