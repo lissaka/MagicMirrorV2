@@ -64,7 +64,7 @@ var config = {
 			}
 		},
 		{
-			module: "Helloworld",
+			module: "helloworld",
 			position: "middle_center",
 			header: "Weather Forecast",
 			config: {
@@ -100,9 +100,9 @@ var config = {
 		{
 		     module: 'MMM-Ratp',
 		     position: 'bottom_right',
-		     header: "Bus 148", // the title that will be displayed on top on the widget
+		     header: 'Bus 148', // the title that will be displayed on top on the widget
 		     config:{
-			 apiURL:"https://api-ratp.pierre-grimaud.fr/v4/schedules/buses/148/lieutenant+lebrun/A+R", // more info about API documentation : https://github.com/pgrimaud/horaires-ratp-api
+			 apiURL:'https://api-ratp.pierre-grimaud.fr/v3/schedules/bus/148/lieutenant+lebrun/A+R', // more info about API documentation : https://github.com/pgrimaud/horaires-ratp-api
 			}
 		},
 
