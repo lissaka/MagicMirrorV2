@@ -7,7 +7,7 @@
 
 // Modules listed below can be loaded without the 'default/' prefix. Omitting the default folder name.
 
-var defaultModules = ["helloword","MMM-Trello", "MMM-Ratp","compliments","MMM-CoinMarketCap", "clock", "currentweather", "newsfeed"];
+var defaultModules = ["helloword","MMM-Trello", "MMM-Ratp","MMM-CoinMarketCap", "clock", "currentweather", "newsfeed"];
 
 /*************** DO NOT EDIT THE LINE BELOW ***************/
 if (typeof module !== "undefined") {
