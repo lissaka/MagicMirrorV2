@@ -66,7 +66,6 @@ var config = {
 		{
 			module: "helloworld",
 			position: "lower_third",
-			header: "Weather Forecast",
 			config: {
 				text: "Je suis le maître de mon destin, Je suis le capitaine de mon âme. - Invictus"
 			}
