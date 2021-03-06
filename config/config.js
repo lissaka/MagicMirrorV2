@@ -72,7 +72,7 @@ var config = {
 		},
 		{
 		  module: "MMM-CyberSecurityNews",
-		  position: "bottom_right",
+		  position: "bottom_center",
 		  config: {
 		    numberOfArticles: 2
 		  }
@@ -122,21 +122,7 @@ var config = {
 			 apiURL:'https://api-ratp.pierre-grimaud.fr/v3/schedules/bus/148/lieutenant+lebrun/A+R', // more info about API documentation : https://github.com/pgrimaud/horaires-ratp-api
 			}
 		},
-		{
-			module: 'twitControl',
-			position: 'top_left',
-			config: {
-				maxNumTweets: 5,
-				streamType: 'followings',
-				api_keys: {
-					consumer_key: 'YOUR CONSUMER KEY',
-					consumer_secret: 'YOUR CONSUMER SECRET',
-					access_token_key: 'YOUR ACCESS TOKEN KEY',
-					access_token_secret: 'YOUR ACCESS TOKEN SECRET'
-				}
-			}
-		},
-
+		
 		{
          		module: "MMM-CoinMarketCap",
          		position: "top_left",
