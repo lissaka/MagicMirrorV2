@@ -117,7 +117,7 @@ var config = {
     		},
 		{
 		     module: 'MMM-Ratp',
-		     position: 'bottom_center',
+		     position: 'bottom_right',
 		     header: 'Bus 148', // the title that will be displayed on top on the widget
 		     config:{
 			 apiURL:'https://api-ratp.pierre-grimaud.fr/v3/schedules/bus/148/lieutenant+lebrun/A+R', // more info about API documentation : https://github.com/pgrimaud/horaires-ratp-api
