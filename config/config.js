@@ -65,7 +65,7 @@ var config = {
 		},
 		{
 			module: "helloworld",
-			position: "lower_third",
+			position: "upper_third",
 			config: {
 				text: "Je suis le maître de mon destin, Je suis le capitaine de mon âme. - Invictus"
 			}
@@ -75,7 +75,7 @@ var config = {
 		  position: "bottom_left",
 		  header: "Cybersecurity",
 		  config: {
-		    numberOfArticles: 1
+		    numberOfArticles: 2
 		  }
 		},
 		{
