@@ -72,10 +72,10 @@ var config = {
 		},
 		{
 		  module: "MMM-CyberSecurityNews",
-		  position: "bottom_center",
+		  position: "bottom_left",
 		  header: "Cybersecurity",
 		  config: {
-		    numberOfArticles: 2
+		    numberOfArticles: 1
 		  }
 		},
 		{
